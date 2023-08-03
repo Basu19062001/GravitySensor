@@ -31,6 +31,11 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         }else {
             Toast.makeText(this, "Sensor service not detected", Toast.LENGTH_SHORT).show();
         }
+        getToast();
+    }
+
+    public void getToast(){
+        Toast.makeText(this, "This is simple toast code", Toast.LENGTH_SHORT).show();
     }
 
     @SuppressLint("SetTextI18n")
